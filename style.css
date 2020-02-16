@@ -1,0 +1,94 @@
+body {
+    background: #333 center no-repeat;
+    background-size: cover;
+    background-image: url(background.jpg);
+    font-weight: bold;
+    font-size: 17px;
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 10%;
+}
+
+#container {    
+    width: 400px;
+    margin: auto;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 20px -3px #000;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #111;
+}
+
+form {
+    margin: auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin:25px 0;
+}
+
+form input, form select {
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: none;
+}
+
+form input[type="text"] {
+    width: 90px;
+}
+
+button {
+    color: #fff;
+    background-color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 30px;
+    width: 100%;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    border-radius: 5px;
+    color: black;
+    background-color: whitesmoke;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#totalTip {
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+#totalTip:before {
+    content: "Tip amount";
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#totalTip sup {
+    font-size: 24px;
+    top: -18px;
+}
+
+#totalTip small {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
